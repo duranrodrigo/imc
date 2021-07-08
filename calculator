@@ -5,7 +5,7 @@ public class imc {
   public static void main(String[] args) {
    double altura = 1.67;
    double peso = 75;
-   double imc = peso / (altura * altura);
+   double imc = peso / Math.pow (altura, 2);
    
    System.out.println(imc);
   
